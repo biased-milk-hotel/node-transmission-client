@@ -15,6 +15,6 @@ export default class TorrentClient {
 
   async download_from_file(file_name) {
     console.log(this.client.addFile);
-    return await this.client.addFile(file_name, this.#self_status_sync);
+    return await this.client.addFile(file_name, this.#handle_status);
   }
 }

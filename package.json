@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "transmission": "^0.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
   }
 }
